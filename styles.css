@@ -1,1 +1,103 @@
-/*  your css code here. If applicable */
+/* Global reset for margin, padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the login form */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for form input groups */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1rem;
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+/* Styling for Remember Me checkbox */
+.remember-me {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+/* Submit button style */
+.submit-btn input {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn input:hover {
+    background-color: #0056b3;
+}
+
+/* Existing user button */
+#existing {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#existing:hover {
+    background-color: #218838;
+}
